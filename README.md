@@ -1,6 +1,6 @@
 ## Employee Management System
 
-A streamlined human resources administration tool built with Laravel 11. This application manages the complete lifecycle of staff members, from onboarding to status management.
+A streamlined human resources administration tool built with Laravel 12. This application manages the complete lifecycle of staff members, from onboarding to status management.
 
 ---
 
@@ -8,8 +8,8 @@ A streamlined human resources administration tool built with Laravel 11. This ap
 
 | Category         | Technology            | Purpose                                      |
 | ---------------- | --------------------- | -------------------------------------------- |
-| **Framework** | Laravel 11            | Backend logic and routing                    |
-| **Database** | MySQL / PostgreSQL    | Relational data storage                      |
+| **Framework** | Laravel 12            | Backend logic and routing                    |
+| **Database** | MySQL    | Relational data storage                      |
 | **ORM** | Eloquent              | Database abstraction and relationships       |
 | **Frontend** | Blade & Tailwind CSS  | Server-side rendering and responsive styling |
 | **Data Seeding** | PHP Faker             | Automated generation of test data            |
