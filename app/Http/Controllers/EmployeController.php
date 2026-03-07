@@ -27,7 +27,9 @@ class EmployeController extends Controller
     
         
 
-        $employees = $query->paginate(4);
+        $employees = $query
+        ->paginate(4)
+        ->withQueryString();
 
         return view('employees.index', compact('employees'));
     }
@@ -95,7 +97,7 @@ class EmployeController extends Controller
 
         $employee->update(['status' => $statusUpdated]);
 
-        return redirect()->route('employees.index');
+        return redirect()->back()->withInput();
     }
 
     /**
