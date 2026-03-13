@@ -34,4 +34,4 @@ A streamlined human resources administration tool built with Laravel 12. This ap
 
 1. **Clone the repository**
    ```bash
-   git clone [https://github.com/yourusername/larastaff.git](https://github.com/yourusername/larastaff.git)
+   git clone https://github.com/abdeeel1/Simple-Employee-Management-App.git
